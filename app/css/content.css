@@ -6,7 +6,7 @@
   margin: 0 auto;
   border-radius: 50%;
   display: block;
-  border: 3px solid rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(102, 102, 102, 0.2);
 }
 .header img:before {
   content: '';
@@ -25,14 +25,20 @@
   text-align: center;
 }
 .body .text .primary {
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
   font-weight: bold;
-  margin: 5px;
+  margin: 10px;
 }
 .body .text .secondary {
+  font-family: 'Questrial', sans-serif;
   font-size: 13px;
   font-weight: lighter;
   margin: 5px;
+  color: #666;
+}
+.body .text .secondary a {
+  color: #666;
 }
 .footer {
   padding: 10px;

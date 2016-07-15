@@ -9,10 +9,6 @@ body {
   height: 100%;
   background-color: #fff;
   background: linear-gradient(to bottom right, #203060, #2F528E);
-  /*   background: linear-gradient(to top right, #54211C, #953832); */
-  /*   background: linear-gradient(to bottom right, #256F46, #36A168); */
-  /*   background: linear-gradient(to bottom right, #256F46, #36A168); */
-  /*   background: linear-gradient(to bottom right, #A46337, #C3814B); */
 }
 .container {
   width: 300px;
@@ -24,5 +20,5 @@ body {
 }
 .divider {
   width: 85%;
-  margin: 30px auto;
+  margin: 30px auto 25px;
 }
