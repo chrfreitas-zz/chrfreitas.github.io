@@ -1,4 +1,4 @@
-@import './reset';
-@import './base';
-@import './content';
-@import './icons';
+@import './base/reset.css';
+@import './base/base.css';
+@import './components/card.css';
+@import './components/icons.css';

@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+.main {
+  position: relative;
+  height: 100vh;
+  background: url(../../img/hero/lion.jpg) center;
+  background-size: 100%;
+}
