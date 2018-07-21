@@ -1,10 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
 }
+
 .main {
   position: relative;
   height: 100vh;
-  background: url(../../img/hero/lion.jpg) center;
-  background-size: 100%;
+  background: url(../../img/hero/lion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:after {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 400px);
+    top: 0;
+    opacity: 0.3;
+    left: 400px;
+  }
 }
