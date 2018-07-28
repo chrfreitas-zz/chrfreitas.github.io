@@ -47,4 +47,8 @@
   &--op8 {
     background-image: url('../../img/hero/8.jpg');
   }
+
+  &--op9 {
+    background-image: url('../../img/hero/9.jpg');
+  }
 }
