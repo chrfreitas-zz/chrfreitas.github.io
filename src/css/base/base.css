@@ -10,18 +10,5 @@ body {
 .main {
   position: relative;
   height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  &:after {
-    content: '';
-    background: black;
-    position: absolute;
-    height: 100%;
-    width: calc(100% - 400px);
-    top: 0;
-    opacity: 0.3;
-    left: 400px;
-  }
+  display: flex;
 }

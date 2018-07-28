@@ -38,6 +38,7 @@
                 </a>
             </div>
         </div>
+        <div class="bg"></div>
     </main>
 
     <script>
@@ -46,9 +47,9 @@
         }
 
         (function() {
-            const main = document.getElementsByClassName('main')[0];
+            const main = document.getElementsByClassName('bg')[0];
             const imageName = randomNumberBetween(1, 8);
-            main.style.backgroundImage = `url('src/img/hero/${imageName}.jpg')`;
+            main.className += ` bg--op${imageName}`;
         })();
     </script>
 

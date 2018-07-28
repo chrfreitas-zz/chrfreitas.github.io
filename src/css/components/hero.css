@@ -1,0 +1,50 @@
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+
+  &:after {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0.3;
+  }
+
+  &--op1 {
+    background-image: url('../../img/hero/1.jpg');
+  }
+
+  &--op2 {
+    background-image: url('../../img/hero/2.jpg');
+  }
+
+  &--op3 {
+    background-image: url('../../img/hero/3.jpg');
+  }
+
+  &--op4 {
+    background-image: url('../../img/hero/4.jpg');
+  }
+
+  &--op5 {
+    background-image: url('../../img/hero/5.jpg');
+  }
+
+  &--op6 {
+    background-image: url('../../img/hero/6.jpg');
+  }
+
+  &--op7 {
+    background-image: url('../../img/hero/7.jpg');
+  }
+
+  &--op8 {
+    background-image: url('../../img/hero/8.jpg');
+  }
+}
